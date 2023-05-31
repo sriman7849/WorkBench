@@ -1,0 +1,83 @@
+package com.mastercard.gpse.processing.enums;
+
+public enum FieldsEnum {
+    TOTAL_DUE_AMOUNT("Total Due Amount"),
+    REASON("Reason"),
+    CONTRACT_NAME("Contract Name"),
+    CONTRACT_NUMBER("Contract Number"),
+    CONTRACT_ID("Contract ID"),
+    NEW_STATUS("New Status"),
+    TITLE("Title"),
+    FULL_NAME("Full Name"),
+    SHORT_NAME("Short Name"),
+    GENDER("Gender"),
+    FIRST_NAME("First Name"),
+    COMPANY_NAME("Company Name"),
+    MIDDLE_NAME("Middle Name"),
+    LAST_NAME("Last Name"),
+    BIRTH_DATE("Birth Date"),
+    BIRTH_PLACE("Birth Place"),
+    BIRTH_NAME("Birth Name"),
+    CITIZENSHIP("Citizenship"),
+    COUNTRY("Country"),
+    TAX_BRACKET("Tax Bracket"),
+    TAXPAYER_ID("Taxpayer ID"),
+    STATE("State"),
+    CITY("City"),
+    ZIP_CODE("ZIP Code"),
+    ADDRESS_LINE_1("Address Line 1"),
+    ADDRESS_LINE_2("Address Line 2"),
+    ADDRESS_LINE_3("Address Line 3"),
+    ADDRESS_LINE_4("Address Line 4"),
+    TRADEMARK("Trademark"),
+    DEPARTMENT("Department"),
+    IDENTITY_CARD_TYPE("Identity Card Type"),
+    IDENTITY_CARD_NUMBER("Identity Card Number"),
+    CLIENT_NUMBER("Client Number"),
+    SECRET_PHRASE("Secret Phrase"),
+    SOCIAL_SECURITY_NUMBER("Social Security Number"),
+    NEW_VALUE("New Value"),
+    COMMENT("Comment"),
+    CARD_NAME("Card Name"),
+    CODE("Code"),
+    SFS1_PROFILING_DD("(SFS1) Profiling"),
+    SFS2_PARTNERS_OFFERS_DD("(SFS2) Partners Offers"),
+    SFS3_TRANSFER_DATA_DD("(SFS3) Transfer Data"),
+    BNP1_PROFILING_DD("(BNP1) Profiling"),
+    BNP2_PARTNERS_OFFERS_DD("(BNP2) Partners Offers"),
+    SFS1_PROFILING("SFS1_Profiling"),
+    SFS2_PARTNERS_OFFERS("SFS2_PartnersOffers"),
+    SFS3_TRANSFER_DATA("SFS3_TransferData"),
+    BNP1_PROFILING("BNP1_Profiling"),
+    BNP2_PARTNERS_OFFERS("BNP2_PartnersOffers"),
+    TO_VALUE("To Value"),
+    PARENT("Parent"),
+    PRODUCT("Product"),
+    EXPIRATION_DATE_YYMM("Expiration Date (YYMM)"),
+    ADDITIONAL_INFO("Additional Info"),
+    AMOUNT("Amount"),
+    EFFECTIVE_DATE("Effective Date"),
+    EXPIRATION_DATE("Expiration Date"),
+    PARENT_CONTRACT("Parent Contract"),
+    BILLING_CONTRACT("Billing Contract"),
+    BANK_ACCOUNT_NUMBER("Bank Account Number"),
+    OPENING_DATE("Opening Date"),
+    STATUS("Status"),
+    OFFICER_TYPE("Officer Type"),
+    PASSWORD("Password"),
+    PASSWORD_CONFIRMATION("Password Confirmation"),
+    NAME("Name"),
+    ENTRY_DESCRIPTION("Entry Description"),
+    ORIGINAL_MESSAGE("Original Message"),
+    MEMO_TYPE("Memo Type");
+
+    public String value;
+
+    FieldsEnum(String value) {
+        this.value = value;
+    }
+
+    public String getValue() {
+        return value;
+    }
+}

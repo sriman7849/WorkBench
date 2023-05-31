@@ -1,0 +1,7 @@
+{
+  "amount": "",
+  "currency": "{{balanceCurrency}}",
+  "description": "TRANSACTION_POSTING_C_TEST",
+  "rrn": "{{RRN}}",
+  "transactionCode": "TRANSACTION_POSTING_C"
+}

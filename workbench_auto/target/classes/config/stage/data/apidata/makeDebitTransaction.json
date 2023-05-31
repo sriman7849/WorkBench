@@ -1,0 +1,5 @@
+{
+  "amount": 10.00,
+  "currency": "{{balanceCurrency}}",
+  "rrn": "{{RRN}}"
+}

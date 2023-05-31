@@ -1,0 +1,49 @@
+{
+  "clientBaseAddressData" : {
+    "addressLine1" : "Testy",
+    "addressLine2" : "Paczki",
+    "addressLine3" : "6.13.2",
+    "addressLine4" : "Again",
+    "city" : "Warsaw",
+    "deliveryType" : "",
+    "postalCode" : 362494,
+    "state" : "STATE",
+    "url" : ""
+  },
+  "clientCompanyData" : {
+    "companyDepartment" : "SPAIN",
+    "companyName" : "FECI",
+    "companyTradeName" : "BANK",
+    "position" : "Director"
+  },
+  "clientIdentificationData" : {
+    "identificationDocumentDetails" : 854100112,
+    "identificationDocumentNumber" : 762746112,
+    "identificationDocumentType" : 124152512,
+    "socialNumber" : 290902224,
+    "taxPosition" : "TAXP",
+    "taxpayerIdentifier" : 603356112
+  },
+  "clientNumber" : 252010806,
+  "clientPersonalData" : {
+    "birthDate" : "1950-10-10",
+    "birthName" : "BIRTHN",
+    "birthPlace" : "BPLACE",
+    "citizenship" : "USA",
+    "countryCode" : "POL",
+    "firstName" : "KERRY",
+    "gender" : "F",
+    "lastName" : "SMITH",
+    "middleName" : "M",
+    "secretPhrase" : "SECRETP",
+    "shortName" : "SHORTN",
+    "suffix" : "SUFF"
+  },
+  "clientType" : "PR",
+  "dateExpiry" : "2026-01-01",
+  "embossedData" : {
+    "embossedCompanyName" : "VER",
+    "embossedFirstName" : "EMBJERRY",
+    "embossedLastName" : "EMBSMITH"
+  }
+}

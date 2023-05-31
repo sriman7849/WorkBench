@@ -1,0 +1,3601 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-26T13:46:04.613Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6152068300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Validate client main screen",
+        "description": "",
+        "id": "client-main-screen-feature;validate-client-main-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 455872300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8784280300,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user login workbench application for role \"Risk - Pay Now Edit (PCI-Less)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Now Edit (PCI-Less)\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6130814100,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user navigates to clients",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3490305400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user search client by client number",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3111491900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user navigates to \"Details\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Details\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2684969800,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user validate the client main screen full details",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userValidateTheClientMainScreenDetails()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayNowEdit"
+          },
+          {
+            "name": "@R-PNEL.005.01.01"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-26T13:46:35.557Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5456000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Validate client main screen GDPR Screen",
+        "description": "",
+        "id": "client-main-screen-feature;validate-client-main-screen-gdpr-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 519353300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15176452700,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user login workbench application for role \"Risk - Pay Now Edit (PCI-Less)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Now Edit (PCI-Less)\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4170020800,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user navigates to clients",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3505214000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user search client by client number",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6280955400,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Details"
+                ]
+              },
+              {
+                "cells": [
+                  "GDPR"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2070503900,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "validate \"GDPR\" tab title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GDPR\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30155144600,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user set the GDPR Marketing Consents",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userSetTheGDPRMarketingConsents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233710700,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user validate the GDPR screen details",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userValidateTheGDPRScreenDetails()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayNowEdit"
+          },
+          {
+            "name": "@R-PNEL.005.02.01"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      }
+    ],
+    "name": "Client Main Screen Feature",
+    "description": "",
+    "id": "client-main-screen-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/web/issuing/customerserviceworkbench/clients/ClientMainScreen.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-26T13:47:37.712Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2998300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Validate client main screen Address Screen",
+        "description": "",
+        "id": "validation-of-addresses;validate-client-main-screen-address-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 464516700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11237714400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user login workbench application for role \"Risk - Pay Now Edit (PCI-Less)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Now Edit (PCI-Less)\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13290318300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user navigates to clients",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3526329900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user search client by client number",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10034066200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Details"
+                ]
+              },
+              {
+                "cells": [
+                  "Addresses"
+                ]
+              },
+              {
+                "cells": [
+                  "All"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2081614400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "validate \"Addresses\" tab title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Addresses\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74924700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user is able to see the record on \"Addresses\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Addresses\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.userIsAbleToSeeTheRecord(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayNowEdit"
+          },
+          {
+            "name": "@R-PNEL.005.05.01"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      }
+    ],
+    "name": "Validation of Addresses",
+    "description": "",
+    "id": "validation-of-addresses",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/web/issuing/customerserviceworkbench/clients/ClientMainScreenAddresses.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-26T13:48:18.478Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7017000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Validate client main Screen Change Log",
+        "description": "",
+        "id": "client-main-screen-change-log-feature;validate-client-main-screen-change-log",
+        "after": [
+          {
+            "result": {
+              "duration": 402741400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15117031100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login workbench application for role \"Risk - Pay Later Instalments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Later Instalments\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5403230000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigates to clients",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3466478600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user search client by client number",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6261087500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Details"
+                ]
+              },
+              {
+                "cells": [
+                  "Change Log"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5158910900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is able to see the record on \"Change Log\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Change Log\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.userIsAbleToSeeTheRecord(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2064240900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "validate \"Change Log\" tab title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Change Log\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayLaterInstall"
+          },
+          {
+            "name": "@R-PI.005.09.01"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-26T13:48:56.389Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3260600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Validate client main Screen Change Log",
+        "description": "",
+        "id": "client-main-screen-change-log-feature;validate-client-main-screen-change-log",
+        "after": [
+          {
+            "result": {
+              "duration": 435749500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12267922700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user login workbench application for role \"Risk - Pay Now Edit (PCI-Less)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Now Edit (PCI-Less)\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5058384800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user navigates to clients",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3437615500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user search client by client number",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6271639600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Details"
+                ]
+              },
+              {
+                "cells": [
+                  "Change Log"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4274753100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user is able to see the record on \"Change Log\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Change Log\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.userIsAbleToSeeTheRecord(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2059671300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "validate \"Change Log\" tab title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Change Log\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayLaterInstall"
+          },
+          {
+            "name": "@R-PNEL.005.09.01"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-26T13:49:30.223Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2009300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Validate client main Screen Change Log Screen",
+        "description": "",
+        "id": "client-main-screen-change-log-feature;validate-client-main-screen-change-log-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 453802900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13228419000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user login workbench application for role \"Risk - Pay Later Instalments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Later Instalments\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4464630200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user navigates to clients",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3480431800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user search client by client number",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6276271500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Details"
+                ]
+              },
+              {
+                "cells": [
+                  "Change Log"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3657702300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "View Data"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1364804300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user Validate the View Data Page",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.validateViewDataPage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayLaterInstall"
+          },
+          {
+            "name": "@R-PI.005.09.02"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      }
+    ],
+    "name": "Client Main Screen Change Log Feature",
+    "description": "",
+    "id": "client-main-screen-change-log-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/web/issuing/customerserviceworkbench/clients/ClientMainScreenChangeLog.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-26T13:50:03.182Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1997700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Client Main Screen - Classifiers",
+        "description": "",
+        "id": "client-main-screen-classifiers;client-main-screen---classifiers",
+        "after": [
+          {
+            "result": {
+              "duration": 424112200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11164031400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user login workbench application for role \"Risk - Pay Now Edit (PCI-Less)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Now Edit (PCI-Less)\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5552015500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user navigates to clients",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3449610600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user search client by client number",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9412732500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Details"
+                ]
+              },
+              {
+                "cells": [
+                  "Classifiers"
+                ]
+              },
+              {
+                "cells": [
+                  "All"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2063189200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "validate \"Classifiers\" tab title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Classifiers\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48268700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user is able to see the record on \"Classifiers\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Classifiers\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.userIsAbleToSeeTheRecord(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ClientMainScreenClassifiers"
+          },
+          {
+            "name": "@RiskPayNowEdit"
+          },
+          {
+            "name": "@R-PNEL.005.06.01"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      }
+    ],
+    "name": "Client Main Screen Classifiers",
+    "description": "",
+    "id": "client-main-screen-classifiers",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/web/issuing/customerserviceworkbench/clients/ClientMainScreenClassifiers.feature",
+    "tags": [
+      {
+        "name": "@ClientMainScreenClassifiers",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-26T13:50:35.322Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Validate client main screen Debts Screen",
+        "description": "",
+        "id": "client-main-screen-debts-feature;validate-client-main-screen-debts-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 426830700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12401273800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login workbench application for role \"Risk - Pay Now Edit (PCI-Less)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Now Edit (PCI-Less)\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4099485800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigates to clients",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3481166500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user search client by client number",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6287409500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Details"
+                ]
+              },
+              {
+                "cells": [
+                  "Debts"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2060579900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "validate \"Debts\" tab title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Debts\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37783900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is able to see the record on \"Debts\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Debts\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.userIsAbleToSeeTheRecord(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayNowEdit"
+          },
+          {
+            "name": "@R-PNEL.005.04.01"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      }
+    ],
+    "name": "Client Main Screen Debts Feature",
+    "description": "",
+    "id": "client-main-screen-debts-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/web/issuing/customerserviceworkbench/clients/ClientMainScreenDebts.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-26T13:51:04.152Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3003800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Validate client main Screen Memos",
+        "description": "",
+        "id": "client-main-screen-memos-feature;validate-client-main-screen-memos",
+        "after": [
+          {
+            "result": {
+              "duration": 379080800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8931684100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login workbench application for role \"Risk - Pay Later Instalments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Later Instalments\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4171908900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigates to clients",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3500835800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user search client by client number",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6251006800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Details"
+                ]
+              },
+              {
+                "cells": [
+                  "Memos"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2075403000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "validate \"Memos\" tab title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Memos\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48771100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user validate the Memos Screen",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userValidateTheClientMemoSScreen()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayLaterInstall"
+          },
+          {
+            "name": "@R-PI.005.07.01"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-26T13:51:29.551Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3180300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Validate client main Screen Memos",
+        "description": "",
+        "id": "client-main-screen-memos-feature;validate-client-main-screen-memos",
+        "after": [
+          {
+            "result": {
+              "duration": 453595100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10455407100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user login workbench application for role \"Risk - Pay Now Edit (PCI-Less)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Now Edit (PCI-Less)\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5163060400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user navigates to clients",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3487818500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user search client by client number",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6289469600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Details"
+                ]
+              },
+              {
+                "cells": [
+                  "Memos"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2130153000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "validate \"Memos\" tab title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Memos\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52945500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user validate the Memos Screen",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userValidateTheClientMemoSScreen()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayNowEdit"
+          },
+          {
+            "name": "@R-PNEL.005.07.01"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-26T13:51:57.617Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Validate create Memos from Client Main Screen",
+        "description": "",
+        "id": "client-main-screen-memos-feature;validate-create-memos-from-client-main-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 423749900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9644144100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user login workbench application for role \"Risk - Pay Later Instalments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Later Instalments\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5555141400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user navigates to clients",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3460331500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user search client by client number",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6284829700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Details"
+                ]
+              },
+              {
+                "cells": [
+                  "Memos"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18969663800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user create new Memos",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userCreateNewMemos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39640600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user Validate the Memos",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.validateMemos()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayLaterInstall"
+          },
+          {
+            "name": "@R-PI.005.07.02"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-26T13:52:42.018Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3011300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Validate Edit Memos from Client Main Screen",
+        "description": "",
+        "id": "client-main-screen-memos-feature;validate-edit-memos-from-client-main-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 415916600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8985917000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user login workbench application for role \"Risk - Pay Later Instalments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Later Instalments\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4970854800,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user navigates to clients",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3457557500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user search client by client number",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6288344500,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Details"
+                ]
+              },
+              {
+                "cells": [
+                  "Memos"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13506968600,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User Edit the created Memo",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.editTheNewlyCreatedMemos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46882300,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user Validate the Memos",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.validateMemos()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayLaterInstall"
+          },
+          {
+            "name": "@R-PI.005.07.03"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-26T13:53:19.711Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3707300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Validate Delete Memos from Client Main Screen",
+        "description": "",
+        "id": "client-main-screen-memos-feature;validate-delete-memos-from-client-main-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 457245000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9756673200,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user login workbench application for role \"Risk - Pay Later Instalments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Later Instalments\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4641958000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user navigates to clients",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3489928000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user search client by client number",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6306935600,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Details"
+                ]
+              },
+              {
+                "cells": [
+                  "Memos"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13885310600,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user Delete the newly created Memo",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.deleteTheCreatedMemo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 361489800,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user Validate the Deleted Memos Status",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.validateDeletedMemosStatus()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayLaterInstall"
+          },
+          {
+            "name": "@R-PI.005.07.04"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-26T13:53:58.634Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3316100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 65,
+        "name": "Validate change log Memos from Client Main Screen",
+        "description": "",
+        "id": "client-main-screen-memos-feature;validate-change-log-memos-from-client-main-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 416431300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9383412300,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user login workbench application for role \"Risk - Pay Later Instalments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Later Instalments\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4773306100,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user navigates to clients",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3429855500,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user search client by client number",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6273855900,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Details"
+                ]
+              },
+              {
+                "cells": [
+                  "Memos"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19079604500,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "user create new Memos",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userCreateNewMemos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 270771700,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "user navigates to the link \"Change Log\" at the bottom of the tab \"Memos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Change Log\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Memos\"",
+                  "offset": 65
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToTheLinkAtTheBottomOfTheTab(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3873459300,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "user is able to see the record on \"Change Log\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Change Log\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.userIsAbleToSeeTheRecord(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2057290700,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "validate \"Change Log\" tab title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Change Log\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayLaterInstall"
+          },
+          {
+            "name": "@R-PI.005.07.05"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-26T13:54:48.220Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2836600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 79,
+        "name": "Validate Details Memos from Client Main Screen",
+        "description": "",
+        "id": "client-main-screen-memos-feature;validate-details-memos-from-client-main-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 452003600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10617014700,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "user login workbench application for role \"Risk - Pay Later Instalments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Later Instalments\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4429093100,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "user navigates to clients",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3517200600,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "user search client by client number",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6290071400,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Details"
+                ]
+              },
+              {
+                "cells": [
+                  "Memos"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19187442300,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "user create new Memos",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userCreateNewMemos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 354152000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "user navigates to the link \"Details\" at the bottom of the tab \"Memos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Details\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Memos\"",
+                  "offset": 62
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToTheLinkAtTheBottomOfTheTab(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2059054400,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "validate \"Details\" tab title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Details\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 41000500,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "user Validate the Memos",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.validateMemos()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayLaterInstall"
+          },
+          {
+            "name": "@R-PI.005.07.06"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      }
+    ],
+    "name": "Client Main Screen Memos Feature",
+    "description": "",
+    "id": "client-main-screen-memos-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/web/issuing/customerserviceworkbench/clients/ClientMainScreenMemos.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-26T13:55:35.205Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6004700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Validate Contract main Screen Memos",
+        "description": "",
+        "id": "contract-main-screen-feature;validate-contract-main-screen-memos",
+        "after": [
+          {
+            "result": {
+              "duration": 422900500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10562174100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login workbench application for role \"Risk - Pay Later Instalments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Later Instalments\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7268014200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigates to contracts",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToContracts()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1197727100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user search contract by contract ID",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ContractSearchSteps.userSearchContractByContractID()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6296177900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Contract Tree"
+                ]
+              },
+              {
+                "cells": [
+                  "Memos"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2061133100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "validate \"Memos\" tab title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Memos\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55051700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user validate the Memos Screen",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userValidateTheClientMemoSScreen()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayLaterInstall"
+          },
+          {
+            "name": "@RiskPayNowEditPCI-Less"
+          },
+          {
+            "name": "@R-PI.004.10.01"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-26T13:56:03.101Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1998000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Validate create Memos from Contract Main Screen",
+        "description": "",
+        "id": "contract-main-screen-feature;validate-create-memos-from-contract-main-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 528521100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9136294800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user login workbench application for role \"Risk - Pay Later Instalments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Later Instalments\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3626017600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user navigates to contracts",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToContracts()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1261496100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user search contract by contract ID",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ContractSearchSteps.userSearchContractByContractID()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6263269700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Contract Tree"
+                ]
+              },
+              {
+                "cells": [
+                  "Memos"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18952868300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user create new Memos",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userCreateNewMemos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41881400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user Validate the Memos",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.validateMemos()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayLaterInstall"
+          },
+          {
+            "name": "@R-PI.004.10.02"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-26T13:56:42.935Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2007800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Validate Edit Memos from Contract Main Screen",
+        "description": "",
+        "id": "contract-main-screen-feature;validate-edit-memos-from-contract-main-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 390242700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12075910600,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user login workbench application for role \"Risk - Pay Later Instalments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Later Instalments\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7798844100,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user navigates to contracts",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToContracts()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1230869700,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user search contract by contract ID",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ContractSearchSteps.userSearchContractByContractID()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6277145500,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Contract Tree"
+                ]
+              },
+              {
+                "cells": [
+                  "Memos"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13648712800,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User Edit the created Memo",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.editTheNewlyCreatedMemos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38578100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user Validate the Memos",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.validateMemos()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayLaterInstall"
+          },
+          {
+            "name": "@R-PI.004.10.03"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-26T13:57:24.423Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3065000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Validate Delete Memos from Contract Main Screen",
+        "description": "",
+        "id": "contract-main-screen-feature;validate-delete-memos-from-contract-main-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 478822300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9717039200,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user login workbench application for role \"Risk - Pay Later Instalments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Later Instalments\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4101045500,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user navigates to contracts",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToContracts()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1342419200,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user search contract by contract ID",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ContractSearchSteps.userSearchContractByContractID()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6309245500,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Contract Tree"
+                ]
+              },
+              {
+                "cells": [
+                  "Memos"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13746452100,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user Delete the newly created Memo",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.deleteTheCreatedMemo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 372738800,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user Validate the Deleted Memos Status",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.validateDeletedMemosStatus()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayLaterInstall"
+          },
+          {
+            "name": "@R-PI.004.10.04"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-26T13:58:00.512Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2785700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 66,
+        "name": "Validate Change Log Memos from Contract Main Screen",
+        "description": "",
+        "id": "contract-main-screen-feature;validate-change-log-memos-from-contract-main-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 369035900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10096863600,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user login workbench application for role \"Risk - Pay Later Instalments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Later Instalments\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4313392300,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user navigates to contracts",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToContracts()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1232039500,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user search contract by contract ID",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ContractSearchSteps.userSearchContractByContractID()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6287843800,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Contract Tree"
+                ]
+              },
+              {
+                "cells": [
+                  "Memos"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19043995200,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "user create new Memos",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userCreateNewMemos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 252838300,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "user navigates to the link \"Change Log\" at the bottom of the tab \"Memos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Change Log\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Memos\"",
+                  "offset": 65
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToTheLinkAtTheBottomOfTheTab(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3116868900,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "user is able to see the record on \"Change Log\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Change Log\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.userIsAbleToSeeTheRecord(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2057696200,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "validate \"Change Log\" tab title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Change Log\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayLaterInstall"
+          },
+          {
+            "name": "@R-PI.004.10.05"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-26T13:58:47.309Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2003400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 80,
+        "name": "Validate Details  from Contract Main Screen",
+        "description": "",
+        "id": "contract-main-screen-feature;validate-details--from-contract-main-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 359103400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13718313100,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "user login workbench application for role \"Risk - Pay Later Instalments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Later Instalments\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4553512500,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "user navigates to contracts",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToContracts()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1202011200,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "user search contract by contract ID",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ContractSearchSteps.userSearchContractByContractID()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6271164400,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Contract Tree"
+                ]
+              },
+              {
+                "cells": [
+                  "Memos"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19209408000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "user create new Memos",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userCreateNewMemos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 312207400,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "user navigates to the link \"Details\" at the bottom of the tab \"Memos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Details\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Memos\"",
+                  "offset": 62
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToTheLinkAtTheBottomOfTheTab(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2058162700,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "validate \"Details\" tab title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Details\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39293500,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "user Validate the Memos",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.validateMemos()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayLaterInstall"
+          },
+          {
+            "name": "@R-PI.004.10.06"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      }
+    ],
+    "name": "Contract Main Screen Feature",
+    "description": "",
+    "id": "contract-main-screen-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/web/issuing/customerserviceworkbench/contracts/ContractMainScreenMemos.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-26T13:59:35.056Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Free Search Account Validation",
+        "description": "",
+        "id": "free-search;free-search-account-validation",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cicon class\u003d\"user-icon ng-isolate-scope\" el\u003d\"sys-user\"\u003e...\u003c/icon\u003e is not clickable at point (1365, 20). Other element would receive the click: \u003cdiv class\u003d\"alertify\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d113.0.5672.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GH-HCRHZH3\u0027, ip: \u0027192.168.0.104\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\e141640\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56327}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 8247dd570e03803eb6a4f730bdf78ad0\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor221.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy45.click(Unknown Source)\r\n\tat com.mastercard.gpse.processing.pages.HomePage.clickUserIcon(HomePage.java:96)\r\n\tat com.mastercard.gpse.processing.pages.HomePage.signOut(HomePage.java:103)\r\n\tat com.mastercard.gpse.processing.workflowsui.LoginWorkFlow.logout(LoginWorkFlow.java:393)\r\n\tat com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(Hooks.java:47)\r\n",
+              "duration": 1198800300,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12479628900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user login workbench application for role \"Risk - Pay Later Instalments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Later Instalments\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17763192200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "validate search in Free Search by Account ID",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.FreeSearchSteps.userSearchInFreeSearchByAccountID()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FreeSearchFeature"
+          },
+          {
+            "name": "@RiskPayLaterInstalments"
+          },
+          {
+            "name": "@R-PI.002.03.03"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      }
+    ],
+    "name": "Free Search",
+    "description": "  As Customer Service Bench Admin. I want to search specific record",
+    "id": "free-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/web/issuing/customerserviceworkbench/search/FreeSearch.feature",
+    "tags": [
+      {
+        "name": "@FreeSearchFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-26T14:00:06.536Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1999900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Search Client By Client Number from different customer",
+        "description": "",
+        "id": "search-by-client;search-client-by-client-number-from-different-customer",
+        "after": [
+          {
+            "result": {
+              "duration": 355260000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29508157500,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user login workbench application for role \"Risk - Pay Later Instalments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Later Instalments\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5506867800,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user navigates to clients",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3091364300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "By Number"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14920711100,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user search client by client number from different customer",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.userSearchClientByClientNumberFromDifferentCustomer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayLaterInstalments"
+          },
+          {
+            "name": "@R-PI.002.05.01"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      }
+    ],
+    "name": "Search by Client",
+    "description": "",
+    "id": "search-by-client",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/web/issuing/customerserviceworkbench/search/SearchClients.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-26T14:00:59.955Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4055800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Search by Contract By Bank Account Number",
+        "description": "",
+        "id": "search-contract-features;search-by-contract-by-bank-account-number",
+        "after": [
+          {
+            "result": {
+              "duration": 415396900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12962652600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user login workbench application for role \"Risk - Pay Later Instalments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risk - Pay Later Instalments\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5368095600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user navigates to contracts",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToContracts()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1213132100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user search contract by contract ID",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ContractSearchSteps.userSearchContractByContractID()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3125518100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user navigates to",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Contract Tree"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1430113900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "get the Bank Code to search in Contract Search Page",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ContractSearchSteps.getBankCode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40343514000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user validate contract by Bank Account Number",
+            "match": {
+              "location": "com.mastercard.gpse.processing.stepDefinitions.web.ContractSearchSteps.userSearchContractByBankAccountNumber()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RiskPayLaterInstall"
+          },
+          {
+            "name": "@R-PI.002.02.02"
+          },
+          {
+            "name": "@Author:"
+          },
+          {
+            "name": "@AartiPatel"
+          }
+        ]
+      }
+    ],
+    "name": "Search Contract Features",
+    "description": "",
+    "id": "search-contract-features",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/web/issuing/customerserviceworkbench/search/SearchContracts.feature",
+    "tags": []
+  }
+]

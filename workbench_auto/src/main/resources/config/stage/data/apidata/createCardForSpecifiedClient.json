@@ -1,0 +1,31 @@
+{
+  "card" : {
+    "cardContractNumber" : "",
+    "contractName" : "CONTRACT{{firstname}}",
+    "embossedData" : {
+      "embossedCompanyName" : "TURBINA{{firstname}}",
+      "embossedFirstName" : "{{firstname}}",
+      "embossedLastName" : "{{lastname}}",
+      "embossedTitle" : "MRS"
+    },
+    "productCode" : "{{CardProductCode}}"
+  },
+  "cardCustomDataList" : [ {
+    "removeTag" : "N",
+    "tagContainer" : "AddInfo01",
+    "tagName" : "PLASTIC_ID",
+    "tagValue" : "FLOWERPOWER"
+  },
+    {
+      "removeTag" : "N",
+      "tagContainer" : "AddInfo01",
+      "tagName" : "CARD_ID",
+      "tagValue" : "4453453"
+    },
+    {
+      "removeTag" : "N",
+      "tagContainer" : "AddInfo01",
+      "tagName" : "DELIVERY",
+      "tagValue" : "POST"
+    }]
+}

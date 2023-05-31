@@ -1,0 +1,4419 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Mastercard Processing PTS EU Automation Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">May 26, 2023 12:47:59 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>May 26, 2023 12:47:59 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>May 26, 2023 01:09:37 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>7</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>3</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='70%'>
+<b>7</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='30%'><b>3</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='86%'><b>19</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='13%'><b>3</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='93%'><b>147</b> steps passed</small></div>
+<div>
+<small data-tooltip='3%'><b>5</b> steps failed,
+<b>5</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Client Main Screen Feature":96.091,"Validation of Addresses":33.408,"Client Main Screen Change Log Feature":131.833,"Client Main Screen Classifiers":64.345,"Client Main Screen Debts Feature":50.838,"Client Main Screen Memos Feature":315.215,"Contract Main Screen Feature":346.393,"Free Search":22.564,"Search by Client":36.963,"Search Contract Features":194.436
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@R-PI.005.07.05</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@ClientMainScreenClassifiers</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@R-PI.005.07.04</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@FreeSearchFeature</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@R-PI.005.07.03</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@R-PI.002.02.02</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@R-PI.004.10.06</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@RiskPayLaterInstall</td>
+<td>13</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>86.667%</td>
+</tr>
+<tr>
+<td>@RiskPayNowEditPCI-Less</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@R-PI.005.09.02</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@R-PI.005.07.02</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@R-PI.002.03.03</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@R-PI.004.10.02</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@R-PI.005.09.01</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@R-PI.004.10.05</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@RiskPayLaterInstalments</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>@R-PNEL.005.04.01</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@RiskPayNowEdit</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@R-PNEL.005.01.01</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@R-PI.004.10.03</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@R-PNEL.005.09.01</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@R-PI.005.07.06</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@R-PNEL.005.06.01</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@R-PI.004.10.04</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@R-PI.004.10.01</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Author:</td>
+<td>19</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>86.364%</td>
+</tr>
+<tr>
+<td>@R-PI.002.05.01</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@AartiPatel</td>
+<td>19</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>86.364%</td>
+</tr>
+<tr>
+<td>@R-PNEL.005.02.01</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@R-PNEL.005.05.01</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>AppName</td>
+<td>MPE PTS EU Automation</td>
+</tr>
+<tr>
+<td>user</td>
+<td>Viresh Pratap Singh</td>
+</tr>
+<tr>
+<td>build</td>
+<td>1.0</td>
+</tr>
+<tr>
+<td>os</td>
+<td>Windows</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 7,
+failParent: 3,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 19,
+failChild: 3,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 147,
+failGrandChild: 5,
+warningGrandChild: 0,
+skipGrandChild: 5,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script><div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@R-PI.005.07.05</a><a class="dropdown-item" href="#">@ClientMainScreenClassifiers</a><a class="dropdown-item" href="#">@R-PI.005.07.04</a><a class="dropdown-item" href="#">@FreeSearchFeature</a><a class="dropdown-item" href="#">@R-PI.005.07.03</a><a class="dropdown-item" href="#">@R-PI.002.02.02</a><a class="dropdown-item" href="#">@R-PI.004.10.06</a><a class="dropdown-item" href="#">@RiskPayLaterInstall</a><a class="dropdown-item" href="#">@RiskPayNowEditPCI-Less</a><a class="dropdown-item" href="#">@R-PI.005.09.02</a><a class="dropdown-item" href="#">@R-PI.005.07.02</a><a class="dropdown-item" href="#">@R-PI.002.03.03</a><a class="dropdown-item" href="#">@R-PI.004.10.02</a><a class="dropdown-item" href="#">@R-PI.005.09.01</a><a class="dropdown-item" href="#">@R-PI.004.10.05</a><a class="dropdown-item" href="#">@RiskPayLaterInstalments</a><a class="dropdown-item" href="#">@R-PNEL.005.04.01</a><a class="dropdown-item" href="#">@RiskPayNowEdit</a><a class="dropdown-item" href="#">@R-PNEL.005.01.01</a><a class="dropdown-item" href="#">@R-PI.004.10.03</a><a class="dropdown-item" href="#">@R-PNEL.005.09.01</a><a class="dropdown-item" href="#">@R-PI.005.07.06</a><a class="dropdown-item" href="#">@R-PNEL.005.06.01</a><a class="dropdown-item" href="#">@R-PI.004.10.04</a><a class="dropdown-item" href="#">@R-PI.004.10.01</a><a class="dropdown-item" href="#">@Author:</a><a class="dropdown-item" href="#">@R-PI.002.05.01</a><a class="dropdown-item" href="#">@AartiPatel</a><a class="dropdown-item" href="#">@R-PNEL.005.02.01</a><a class="dropdown-item" href="#">@R-PNEL.005.05.01</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Client Main Screen Feature</p>
+            <p class="text-sm">
+              <span>12:48:04 PM</span> / <span>00:01:36:091</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Client Main Screen Feature</h5>
+<span class='badge badge-success'>05.26.2023 12:48:04 PM</span>
+<span class='badge badge-danger'>05.26.2023 12:49:40 PM</span>
+<span class='badge badge-default'>00:01:36:091</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Validate client main screen</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Now Edit (PCI-Less)"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()">
+                <span>And user navigates to clients</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">User Navigated to Clients Page</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()">
+                <span>And user search client by client number</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched client by clientNumber: 2073245263</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(java.lang.String)">
+                <span>Then user navigates to "Details"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userValidateTheClientMainScreenDetails()">
+                <span>And user validate the client main screen full details</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Full name is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Short Name is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Gender is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [First Name is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Middle Name is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Last Name is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Birth Date is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Birth Place is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Birth Name is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Citizenship is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Tax Bracket is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Taxpayer ID is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [State is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [City is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [ZIP Code is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Address Line 1 is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Address Line 2 is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Address Line 3 is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Address Line 4 is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Company Name is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Trademark is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Department is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Last Name is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [First Name is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Company Name is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Identity Card Type is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Identity Card Number is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Client Number is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Secret Phrase is displayed correctly] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Social Security Number is displayed correctly] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="40"><span class="badge log pass-bg mr-2">Pass</span>Validate client main screen GDPR Screen</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Now Edit (PCI-Less)"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()">
+                <span>And user navigates to clients</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">User Navigated to Clients Page</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()">
+                <span>Then user search client by client number</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched client by clientNumber: 2073245263</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>Then user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Details</td></tr><tr><td>GDPR</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)">
+                <span>Then validate "GDPR" tab title</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert passed
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Validated GDPR tab title</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userSetTheGDPRMarketingConsents()">
+                <span>And user set the GDPR Marketing Consents</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On set consents</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Yes' in field '(SFS1) Profiling'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'No' in field '(SFS2) Partners Offers'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Yes' in field '(SFS3) Transfer Data'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'No' in field '(BNP1) Profiling'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Yes' in field '(BNP2) Partners Offers'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Save Button</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userValidateTheGDPRScreenDetails()">
+                <span>And user validate the GDPR screen details</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [(SFS1) Profiling passed] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [(SFS2) Partners Offers passed] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [(SFS3) Transfer Data passed] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [(BNP1) Profiling passed] passed
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [(BNP2) Partners Offers passed] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="56"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Validation of Addresses</p>
+            <p class="text-sm">
+              <span>12:49:40 PM</span> / <span>00:00:33:408</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validation of Addresses</h5>
+<span class='badge badge-success'>05.26.2023 12:49:40 PM</span>
+<span class='badge badge-danger'>05.26.2023 12:50:14 PM</span>
+<span class='badge badge-default'>00:00:33:408</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=56</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="57"><span class="badge log pass-bg mr-2">Pass</span>Validate client main screen Address Screen</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Now Edit (PCI-Less)"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()">
+                <span>And user navigates to clients</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">User Navigated to Clients Page</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()">
+                <span>Then user search client by client number</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched client by clientNumber: 2073245263</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Details</td></tr><tr><td>Addresses</td></tr><tr><td>All</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)">
+                <span>Then validate "Addresses" tab title</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert passed
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Validated Addresses tab title</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.userIsAbleToSeeTheRecord(java.lang.String)">
+                <span>And user is able to see the record on "Addresses" page</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Record Found Successfully] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="68"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Client Main Screen Change Log Feature</p>
+            <p class="text-sm">
+              <span>12:50:14 PM</span> / <span>00:02:11:833</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Client Main Screen Change Log Feature</h5>
+<span class='badge badge-success'>05.26.2023 12:50:14 PM</span>
+<span class='badge badge-danger'>05.26.2023 12:52:25 PM</span>
+<span class='badge badge-default'>00:02:11:833</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=68</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="69"><span class="badge log pass-bg mr-2">Pass</span>Validate client main Screen Change Log</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Later Instalments"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()">
+                <span>And user navigates to clients</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">User Navigated to Clients Page</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()">
+                <span>And user search client by client number</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched client by clientNumber: 2073245263</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Details</td></tr><tr><td>Change Log</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.userIsAbleToSeeTheRecord(java.lang.String)">
+                <span>And user is able to see the record on "Change Log" page</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Record Found Successfully] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)">
+                <span>And validate "Change Log" tab title</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert passed
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Validated Change Log tab title</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="80"><span class="badge log pass-bg mr-2">Pass</span>Validate client main Screen Change Log</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Now Edit (PCI-Less)"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()">
+                <span>And user navigates to clients</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">User Navigated to Clients Page</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()">
+                <span>And user search client by client number</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched client by clientNumber: 2073245263</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Details</td></tr><tr><td>Change Log</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.userIsAbleToSeeTheRecord(java.lang.String)">
+                <span>And user is able to see the record on "Change Log" page</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Record Found Successfully] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)">
+                <span>And validate "Change Log" tab title</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert passed
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Validated Change Log tab title</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="91"><span class="badge log fail-bg mr-2">Fail</span>Validate client main Screen Change Log Screen</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Later Instalments"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()">
+                <span>And user navigates to clients</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">User Navigated to Clients Page</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()">
+                <span>And user search client by client number</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched client by clientNumber: 2073245263</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Details</td></tr><tr><td>Change Log</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>View Data</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.validateViewDataPage()">
+                <span>And user Validate the View Data Page</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Full name is displayed correctly] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)">
+                <span>And validate "View Data" tab title</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@ng-bind-html='getTabTitle(data) | sanitize' and  text()='View Data']"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GH-HCRHZH3', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\e141640\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 08d9225d7cf4fb32f3cb8aa3c6a938e5
+*** Element info: {Using=xpath, value=//span[@ng-bind-html='getTabTitle(data) | sanitize' and  text()='View Data']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.mastercard.gpse.processing.utils.WebElementUtility.locateElement(WebElementUtility.java:327)
+	at com.mastercard.gpse.processing.pages.CommonPage.getTabTitleText(CommonPage.java:200)
+	at com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(CommonSteps.java:34)
+	at ✽.validate "View Data" tab title(file:///C:/Users/e141640/IdeaProjects/Service_Workbench_Automation/workbench_auto/src/test/resources/features/web/issuing/customerserviceworkbench/clients/ClientMainScreenChangeLog.feature:39)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>Validate client main Screen Change Log Screen
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="102"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Client Main Screen Classifiers</p>
+            <p class="text-sm">
+              <span>12:52:26 PM</span> / <span>00:01:04:345</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Client Main Screen Classifiers</h5>
+<span class='badge badge-success'>05.26.2023 12:52:26 PM</span>
+<span class='badge badge-danger'>05.26.2023 12:53:30 PM</span>
+<span class='badge badge-default'>00:01:04:345</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=102</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="103"><span class="badge log pass-bg mr-2">Pass</span>Client Main Screen - Classifiers</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Now Edit (PCI-Less)"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()">
+                <span>And user navigates to clients</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">User Navigated to Clients Page</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()">
+                <span>And user search client by client number</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched client by clientNumber: 2073245263</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Details</td></tr><tr><td>Classifiers</td></tr><tr><td>All</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)">
+                <span>Then validate "Classifiers" tab title</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert passed
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Validated Classifiers tab title</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.userIsAbleToSeeTheRecord(java.lang.String)">
+                <span>And user is able to see the record on "Classifiers" page</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Record Found Successfully] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="114"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Client Main Screen Debts Feature</p>
+            <p class="text-sm">
+              <span>12:53:30 PM</span> / <span>00:00:50:838</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Client Main Screen Debts Feature</h5>
+<span class='badge badge-success'>05.26.2023 12:53:30 PM</span>
+<span class='badge badge-danger'>05.26.2023 12:54:21 PM</span>
+<span class='badge badge-default'>00:00:50:838</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=114</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="115"><span class="badge log pass-bg mr-2">Pass</span>Validate client main screen Debts Screen</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Now Edit (PCI-Less)"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()">
+                <span>And user navigates to clients</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">User Navigated to Clients Page</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()">
+                <span>Then user search client by client number</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched client by clientNumber: 2073245263</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Details</td></tr><tr><td>Debts</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)">
+                <span>Then validate "Debts" tab title</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert passed
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Validated Debts tab title</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.userIsAbleToSeeTheRecord(java.lang.String)">
+                <span>And user is able to see the record on "Debts" page</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Record Found Successfully] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="126"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Client Main Screen Memos Feature</p>
+            <p class="text-sm">
+              <span>12:54:21 PM</span> / <span>00:05:15:215</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Client Main Screen Memos Feature</h5>
+<span class='badge badge-success'>05.26.2023 12:54:21 PM</span>
+<span class='badge badge-danger'>05.26.2023 12:59:36 PM</span>
+<span class='badge badge-default'>00:05:15:215</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=126</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="127"><span class="badge log pass-bg mr-2">Pass</span>Validate create Memos from Client Main Screen</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Later Instalments"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()">
+                <span>And user navigates to clients</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">User Navigated to Clients Page</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()">
+                <span>And user search client by client number</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched client by clientNumber: 2073245263</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Details</td></tr><tr><td>Memos</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userCreateNewMemos()">
+                <span>And user create new Memos</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Memos</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Bank decision' in field 'Reason'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Standard Memo' in field 'Memo Type'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Save Button</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.validateMemos()">
+                <span>Then user Validate the Memos</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Original Message is displayed as expected] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="137"><span class="badge log pass-bg mr-2">Pass</span>Validate Edit Memos from Client Main Screen</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Later Instalments"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()">
+                <span>And user navigates to clients</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">User Navigated to Clients Page</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()">
+                <span>And user search client by client number</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched client by clientNumber: 2073245263</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Details</td></tr><tr><td>Memos</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.editTheNewlyCreatedMemos()">
+                <span>And User Edit the created Memo</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Edit Memos</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Bank decision' in field 'Reason'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Save Button</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.validateMemos()">
+                <span>Then user Validate the Memos</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Original Message is displayed as expected] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="147"><span class="badge log pass-bg mr-2">Pass</span>Validate Delete Memos from Client Main Screen</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Later Instalments"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()">
+                <span>And user navigates to clients</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">User Navigated to Clients Page</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()">
+                <span>And user search client by client number</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched client by clientNumber: 2073245263</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Details</td></tr><tr><td>Memos</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.deleteTheCreatedMemo()">
+                <span>And user Delete the newly created Memo</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Delete Memos</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On OK Button</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Bank decision' in field 'Reason'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Save Button</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.validateDeletedMemosStatus()">
+                <span>Then user Validate the Deleted Memos Status</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Record is found] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="157"><span class="badge log pass-bg mr-2">Pass</span>Validate change log Memos from Client Main Screen</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Later Instalments"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()">
+                <span>And user navigates to clients</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">User Navigated to Clients Page</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()">
+                <span>And user search client by client number</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched client by clientNumber: 2073245263</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Details</td></tr><tr><td>Memos</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userCreateNewMemos()">
+                <span>And user create new Memos</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Memos</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Bank decision' in field 'Reason'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Standard Memo' in field 'Memo Type'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Save Button</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToTheLinkAtTheBottomOfTheTab(java.lang.String,java.lang.String)">
+                <span>And user navigates to the link "Change Log" at the bottom of the tab "Memos"</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Navigated to Change Log link on Memos page </font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.userIsAbleToSeeTheRecord(java.lang.String)">
+                <span>Then user is able to see the record on "Change Log" page</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Record Found Successfully] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)">
+                <span>Then validate "Change Log" tab title</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert passed
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Validated Change Log tab title</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="170"><span class="badge log pass-bg mr-2">Pass</span>Validate Details Memos from Client Main Screen</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Later Instalments"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()">
+                <span>And user navigates to clients</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">User Navigated to Clients Page</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.user_search_client_by_client_number()">
+                <span>And user search client by client number</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched client by clientNumber: 2073245263</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Details</td></tr><tr><td>Memos</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userCreateNewMemos()">
+                <span>And user create new Memos</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Memos</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Bank decision' in field 'Reason'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Standard Memo' in field 'Memo Type'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Save Button</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToTheLinkAtTheBottomOfTheTab(java.lang.String,java.lang.String)">
+                <span>And user navigates to the link "Details" at the bottom of the tab "Memos"</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Navigated to Details link on Memos page </font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)">
+                <span>Then validate "Details" tab title</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert passed
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Validated Details tab title</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.validateMemos()">
+                <span>Then user Validate the Memos</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Original Message is displayed as expected] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="183"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Contract Main Screen Feature</p>
+            <p class="text-sm">
+              <span>12:59:36 PM</span> / <span>00:05:46:393</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Contract Main Screen Feature</h5>
+<span class='badge badge-success'>05.26.2023 12:59:36 PM</span>
+<span class='badge badge-danger'>05.26.2023 1:05:23 PM</span>
+<span class='badge badge-default'>00:05:46:393</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=183</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="184"><span class="badge log pass-bg mr-2">Pass</span>Validate Contract main Screen Memos</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Later Instalments"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToContracts()">
+                <span>And user navigates to contracts</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">navigated to contracts</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ContractSearchSteps.userSearchContractByContractID()">
+                <span>And user search contract by contract ID</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On By Contract ID</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked on By Contract ID</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Enter Contract ID: 1661519450</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched contract by contractID: 1661519450</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Contract Tree</td></tr><tr><td>Memos</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)">
+                <span>And validate "Memos" tab title</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert passed
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Validated Memos tab title</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userValidateTheClientMemoSScreen()">
+                <span>And user validate the Memos Screen</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Memos Type Title is present] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="195"><span class="badge log pass-bg mr-2">Pass</span>Validate create Memos from Contract Main Screen</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Later Instalments"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToContracts()">
+                <span>And user navigates to contracts</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">navigated to contracts</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ContractSearchSteps.userSearchContractByContractID()">
+                <span>And user search contract by contract ID</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On By Contract ID</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked on By Contract ID</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Enter Contract ID: 1661519450</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched contract by contractID: 1661519450</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Contract Tree</td></tr><tr><td>Memos</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userCreateNewMemos()">
+                <span>And user create new Memos</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Memos</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Bank decision' in field 'Reason'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Standard Memo' in field 'Memo Type'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Save Button</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.validateMemos()">
+                <span>Then user Validate the Memos</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Original Message is displayed as expected] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="205"><span class="badge log pass-bg mr-2">Pass</span>Validate Edit Memos from Contract Main Screen</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Later Instalments"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToContracts()">
+                <span>And user navigates to contracts</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">navigated to contracts</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ContractSearchSteps.userSearchContractByContractID()">
+                <span>And user search contract by contract ID</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On By Contract ID</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked on By Contract ID</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Enter Contract ID: 1661519450</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched contract by contractID: 1661519450</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Contract Tree</td></tr><tr><td>Memos</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.editTheNewlyCreatedMemos()">
+                <span>And User Edit the created Memo</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Edit Memos</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Bank decision' in field 'Reason'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Save Button</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.validateMemos()">
+                <span>Then user Validate the Memos</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Original Message is displayed as expected] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="215"><span class="badge log pass-bg mr-2">Pass</span>Validate Delete Memos from Contract Main Screen</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Later Instalments"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToContracts()">
+                <span>And user navigates to contracts</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">navigated to contracts</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ContractSearchSteps.userSearchContractByContractID()">
+                <span>And user search contract by contract ID</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On By Contract ID</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked on By Contract ID</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Enter Contract ID: 1661519450</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched contract by contractID: 1661519450</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Contract Tree</td></tr><tr><td>Memos</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.deleteTheCreatedMemo()">
+                <span>And user Delete the newly created Memo</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Delete Memos</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On OK Button</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Bank decision' in field 'Reason'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Save Button</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.validateDeletedMemosStatus()">
+                <span>Then user Validate the Deleted Memos Status</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Record is found] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="225"><span class="badge log pass-bg mr-2">Pass</span>Validate create,Edit,Delete Memos from Contract Main Screen</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Later Instalments"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToContracts()">
+                <span>And user navigates to contracts</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">navigated to contracts</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ContractSearchSteps.userSearchContractByContractID()">
+                <span>And user search contract by contract ID</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On By Contract ID</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked on By Contract ID</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Enter Contract ID: 1661519450</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched contract by contractID: 1661519450</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Contract Tree</td></tr><tr><td>Memos</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userCreateNewMemos()">
+                <span>And user create new Memos</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Memos</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Bank decision' in field 'Reason'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Standard Memo' in field 'Memo Type'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Save Button</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToTheLinkAtTheBottomOfTheTab(java.lang.String,java.lang.String)">
+                <span>And user navigates to the link "Change Log" at the bottom of the tab "Memos"</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Navigated to Change Log link on Memos page </font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.userIsAbleToSeeTheRecord(java.lang.String)">
+                <span>Then user is able to see the record on "Change Log" page</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Record Found Successfully] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)">
+                <span>Then validate "Change Log" tab title</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert passed
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Validated Change Log tab title</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="238"><span class="badge log pass-bg mr-2">Pass</span>Validate create,Edit,Delete Memos from Contract Main Screen</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Later Instalments"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToContracts()">
+                <span>And user navigates to contracts</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">navigated to contracts</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ContractSearchSteps.userSearchContractByContractID()">
+                <span>And user search contract by contract ID</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On By Contract ID</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked on By Contract ID</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Enter Contract ID: 1661519450</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">searched contract by contractID: 1661519450</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Contract Tree</td></tr><tr><td>Memos</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.userCreateNewMemos()">
+                <span>And user create new Memos</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Memos</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Bank decision' in field 'Reason'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Selected value 'Standard Memo' in field 'Memo Type'</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Save Button</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToTheLinkAtTheBottomOfTheTab(java.lang.String,java.lang.String)">
+                <span>And user navigates to the link "Details" at the bottom of the tab "Memos"</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Navigated to Details link on Memos page </font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.CommonSteps.validateTabTitle(java.lang.String)">
+                <span>And validate "Details" tab title</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert passed
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Validated Details tab title</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSteps.validateMemos()">
+                <span>And user Validate the Memos</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Original Message is displayed as expected] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="251"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Free Search</p>
+            <p class="text-sm">
+              <span>1:05:23 PM</span> / <span>00:00:22:564</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Free Search</h5>
+<span class='badge badge-success'>05.26.2023 1:05:23 PM</span>
+<span class='badge badge-danger'>05.26.2023 1:05:45 PM</span>
+<span class='badge badge-default'>00:00:22:564</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=251</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> As Customer Service Bench Admin. I want to search specific record</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="252"><span class="badge log pass-bg mr-2">Pass</span>Free Search Account Validation</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Later Instalments"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.FreeSearchSteps.userSearchInFreeSearchByAccountID()">
+                <span>Then validate search in Free Search by Account ID</span>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Expected record is present] passed
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Click on User Icon</font>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="258"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Search by Client</p>
+            <p class="text-sm">
+              <span>1:05:45 PM</span> / <span>00:00:36:963</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Search by Client</h5>
+<span class='badge badge-success'>05.26.2023 1:05:45 PM</span>
+<span class='badge badge-danger'>05.26.2023 1:06:22 PM</span>
+<span class='badge badge-default'>00:00:36:963</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=258</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="259"><span class="badge log fail-bg mr-2">Fail</span>Search Client By Client Number from different customer</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Later Instalments"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToClients()">
+                <span>And user navigates to clients</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">User Navigated to Clients Page</font>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>By Number</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.userSearchClientByClientNumberFromDifferentCustomer()">
+                <span>Then user search client by client number from different customer</span>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">Clicked On Find</font>
+      </div>
+      <div>&emsp; <font color=black>&#9432;</font></b> &emsp; <font style="font-family:Courier New;">User search client by Invalid clientNumber</font>
+      </div>
+      <div>&emsp; &#x21DD; &emsp; Soft Assert [Record not Found] passed
+      </div>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="form-save-bar-button search-btn valid-btn" tabindex="0" ng-click="findNow()" ng-enter="findNow()" ng-class="{'disabled':getForm().$invalid}" ng-disabled="getForm().$invalid">...</button> is not clickable at point (491, 203). Other element would receive the click: <div class="alertify">...</div>
+  (Session info: chrome=113.0.5672.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GH-HCRHZH3', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\e141640\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 08d9225d7cf4fb32f3cb8aa3c6a938e5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor221.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy45.click(Unknown Source)
+	at com.mastercard.gpse.processing.utils.WebElementUtility.clickOnElement(WebElementUtility.java:176)
+	at com.mastercard.gpse.processing.pages.ClientPage.clickOnFind(ClientPage.java:129)
+	at com.mastercard.gpse.processing.stepDefinitions.web.ClientSearchSteps.userSearchClientByClientNumberFromDifferentCustomer(ClientSearchSteps.java:78)
+	at ✽.user search client by client number from different customer(file:///C:/Users/e141640/IdeaProjects/Service_Workbench_Automation/workbench_auto/src/test/resources/features/web/issuing/customerserviceworkbench/search/SearchClients.feature:57)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>Search Client By Client Number from different customer
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded2.png' src="../Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <icon class="user-icon ng-isolate-scope" el="sys-user">...</icon> is not clickable at point (1365, 20). Other element would receive the click: <div class="alertify">...</div>
+  (Session info: chrome=113.0.5672.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GH-HCRHZH3', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\e141640\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 08d9225d7cf4fb32f3cb8aa3c6a938e5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor221.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy45.click(Unknown Source)
+	at com.mastercard.gpse.processing.pages.HomePage.clickUserIcon(HomePage.java:96)
+	at com.mastercard.gpse.processing.pages.HomePage.signOut(HomePage.java:103)
+	at com.mastercard.gpse.processing.workflowsui.LoginWorkFlow.logout(LoginWorkFlow.java:393)
+	at com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(Hooks.java:47)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="267"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Search Contract Features</p>
+            <p class="text-sm">
+              <span>1:06:22 PM</span> / <span>00:03:14:436</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Search Contract Features</h5>
+<span class='badge badge-success'>05.26.2023 1:06:22 PM</span>
+<span class='badge badge-danger'>05.26.2023 1:09:37 PM</span>
+<span class='badge badge-default'>00:03:14:436</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=267</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="268"><span class="badge log fail-bg mr-2">Fail</span>Search by Contract By Bank Account Number</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(java.lang.String)">
+                <span>When user login workbench application for role "Risk - Pay Later Instalments"</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 59.723
+  (Session info: chrome=113.0.5672.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GH-HCRHZH3', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\e141640\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 08d9225d7cf4fb32f3cb8aa3c6a938e5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.mastercard.gpse.processing.pages.LoginPage.open(LoginPage.java:102)
+	at com.mastercard.gpse.processing.pages.LoginPage.login(LoginPage.java:120)
+	at com.mastercard.gpse.processing.workflowsui.LoginWorkFlow.login(LoginWorkFlow.java:347)
+	at com.mastercard.gpse.processing.workflowsui.LoginWorkFlow.loginToCSWForRiskPayLaterInstalmentsNonPCIRole(LoginWorkFlow.java:209)
+	at com.mastercard.gpse.processing.stepDefinitions.web.LoginSteps.userEntersTheCredentialsForUserRole(LoginSteps.java:85)
+	at ✽.user login workbench application for role "Risk - Pay Later Instalments"(file:///C:/Users/e141640/IdeaProjects/Service_Workbench_Automation/workbench_auto/src/test/resources/features/web/issuing/customerserviceworkbench/search/SearchContracts.feature:33)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesToContracts()">
+                <span>And user navigates to contracts</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ContractSearchSteps.userSearchContractByContractID()">
+                <span>And user search contract by contract ID</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.NavigationSteps.userNavigatesTo(io.cucumber.datatable.DataTable)">
+                <span>And user navigates to</span>
+      <div><table class='markup-table table '><tr><td>Contract Tree</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ContractSearchSteps.getBankCode()">
+                <span>And get the Bank Code to search in Contract Search Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.mastercard.gpse.processing.stepDefinitions.web.ContractSearchSteps.userSearchContractByBankAccountNumber()">
+                <span>Then user validate contract by Bank Account Number</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>Search by Contract By Bank Account Number
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded3.png' src="../Screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: icon.user-icon.ng-isolate-scope' (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.mastercard.gpse.processing.utils.WebElementUtility.waitForElementToBeClickableAfterPageLoading(WebElementUtility.java:80)
+	at com.mastercard.gpse.processing.pages.HomePage.clickUserIcon(HomePage.java:95)
+	at com.mastercard.gpse.processing.pages.HomePage.signOut(HomePage.java:103)
+	at com.mastercard.gpse.processing.workflowsui.LoginWorkFlow.logout(LoginWorkFlow.java:393)
+	at com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(Hooks.java:47)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"icon.user-icon.ng-isolate-scope"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GH-HCRHZH3', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\e141640\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 08d9225d7cf4fb32f3cb8aa3c6a938e5
+*** Element info: {Using=css selector, value=icon.user-icon.ng-isolate-scope}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy45.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.mastercard.gpse.processing.utils.WebElementUtility.waitForElementToBeClickableAfterPageLoading(WebElementUtility.java:80)
+	at com.mastercard.gpse.processing.pages.HomePage.clickUserIcon(HomePage.java:95)
+	at com.mastercard.gpse.processing.pages.HomePage.signOut(HomePage.java:103)
+	at com.mastercard.gpse.processing.workflowsui.LoginWorkFlow.logout(LoginWorkFlow.java:393)
+	at com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(Hooks.java:47)
+	at jdk.internal.reflect.GeneratedMethodAccessor241.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:110)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:117)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:114)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at jdk.internal.reflect.GeneratedMethodAccessor237.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">30</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PI.005.07.05</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PI.005.07.05</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:57:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='157'>Validate change log Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate change log Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@ClientMainScreenClassifiers</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@ClientMainScreenClassifiers</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:52:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='102' id='103'>Client Main Screen - Classifiers</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Classifiers.Client Main Screen - Classifiers</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PI.005.07.04</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PI.005.07.04</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:56:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='147'>Validate Delete Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate Delete Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@FreeSearchFeature</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@FreeSearchFeature</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:05:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='251' id='252'>Free Search Account Validation</a>
+<div class="">
+<span class="badge badge-default">Free Search.Free Search Account Validation</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PI.005.07.03</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PI.005.07.03</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:55:33 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='137'>Validate Edit Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate Edit Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@R-PI.002.02.02</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PI.002.02.02</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:06:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='267' id='268'>Search by Contract By Bank Account Number</a>
+<div class="">
+<span class="badge badge-default">Search Contract Features.Search by Contract By Bank Account Number</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PI.004.10.06</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PI.004.10.06</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:04:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='238'>Validate create,Edit,Delete Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate create,Edit,Delete Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>13</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@RiskPayLaterInstall</p>
+<p class="duration text-sm">15 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@RiskPayLaterInstall</h4>
+<span status="pass" class='badge log pass-bg'>13 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:50:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='69'>Validate client main Screen Change Log</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Change Log Feature.Validate client main Screen Change Log</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:50:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='80'>Validate client main Screen Change Log</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Change Log Feature.Validate client main Screen Change Log</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:51:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='91'>Validate client main Screen Change Log Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Change Log Feature.Validate client main Screen Change Log Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:54:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='127'>Validate create Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate create Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:55:33 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='137'>Validate Edit Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate Edit Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:56:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='147'>Validate Delete Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate Delete Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:57:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='157'>Validate change log Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate change log Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:58:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='170'>Validate Details Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate Details Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:59:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='184'>Validate Contract main Screen Memos</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate Contract main Screen Memos</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:00:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='195'>Validate create Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate create Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:01:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='205'>Validate Edit Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate Edit Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:02:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='215'>Validate Delete Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate Delete Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:03:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='225'>Validate create,Edit,Delete Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate create,Edit,Delete Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:04:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='238'>Validate create,Edit,Delete Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate create,Edit,Delete Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:06:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='267' id='268'>Search by Contract By Bank Account Number</a>
+<div class="">
+<span class="badge badge-default">Search Contract Features.Search by Contract By Bank Account Number</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@RiskPayNowEditPCI-Less</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@RiskPayNowEditPCI-Less</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:59:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='184'>Validate Contract main Screen Memos</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate Contract main Screen Memos</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@R-PI.005.09.02</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PI.005.09.02</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:51:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='91'>Validate client main Screen Change Log Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Change Log Feature.Validate client main Screen Change Log Screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PI.005.07.02</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PI.005.07.02</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:54:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='127'>Validate create Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate create Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PI.002.03.03</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PI.002.03.03</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:05:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='251' id='252'>Free Search Account Validation</a>
+<div class="">
+<span class="badge badge-default">Free Search.Free Search Account Validation</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PI.004.10.02</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PI.004.10.02</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:00:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='195'>Validate create Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate create Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PI.005.09.01</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PI.005.09.01</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:50:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='69'>Validate client main Screen Change Log</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Change Log Feature.Validate client main Screen Change Log</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PI.004.10.05</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PI.004.10.05</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:03:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='225'>Validate create,Edit,Delete Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate create,Edit,Delete Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@RiskPayLaterInstalments</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@RiskPayLaterInstalments</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:05:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='251' id='252'>Free Search Account Validation</a>
+<div class="">
+<span class="badge badge-default">Free Search.Free Search Account Validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:05:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='258' id='259'>Search Client By Client Number from different customer</a>
+<div class="">
+<span class="badge badge-default">Search by Client.Search Client By Client Number from different customer</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PNEL.005.04.01</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PNEL.005.04.01</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:53:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='114' id='115'>Validate client main screen Debts Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Debts Feature.Validate client main screen Debts Screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+</span>
+<p class="name">@RiskPayNowEdit</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@RiskPayNowEdit</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:48:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Validate client main screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Feature.Validate client main screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:48:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='40'>Validate client main screen GDPR Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Feature.Validate client main screen GDPR Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:49:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='57'>Validate client main screen Address Screen</a>
+<div class="">
+<span class="badge badge-default">Validation of Addresses.Validate client main screen Address Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:52:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='102' id='103'>Client Main Screen - Classifiers</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Classifiers.Client Main Screen - Classifiers</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:53:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='114' id='115'>Validate client main screen Debts Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Debts Feature.Validate client main screen Debts Screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PNEL.005.01.01</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PNEL.005.01.01</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:48:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Validate client main screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Feature.Validate client main screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PI.004.10.03</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PI.004.10.03</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:01:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='205'>Validate Edit Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate Edit Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PNEL.005.09.01</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PNEL.005.09.01</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:50:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='80'>Validate client main Screen Change Log</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Change Log Feature.Validate client main Screen Change Log</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PI.005.07.06</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PI.005.07.06</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:58:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='170'>Validate Details Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate Details Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PNEL.005.06.01</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PNEL.005.06.01</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:52:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='102' id='103'>Client Main Screen - Classifiers</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Classifiers.Client Main Screen - Classifiers</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PI.004.10.04</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PI.004.10.04</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:02:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='215'>Validate Delete Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate Delete Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PI.004.10.01</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PI.004.10.01</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:59:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='184'>Validate Contract main Screen Memos</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate Contract main Screen Memos</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>19</span>
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">@Author:</p>
+<p class="duration text-sm">22 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Author:</h4>
+<span status="pass" class='badge log pass-bg'>19 passed</span>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:48:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Validate client main screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Feature.Validate client main screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:48:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='40'>Validate client main screen GDPR Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Feature.Validate client main screen GDPR Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:49:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='57'>Validate client main screen Address Screen</a>
+<div class="">
+<span class="badge badge-default">Validation of Addresses.Validate client main screen Address Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:50:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='69'>Validate client main Screen Change Log</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Change Log Feature.Validate client main Screen Change Log</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:50:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='80'>Validate client main Screen Change Log</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Change Log Feature.Validate client main Screen Change Log</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:51:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='91'>Validate client main Screen Change Log Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Change Log Feature.Validate client main Screen Change Log Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:52:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='102' id='103'>Client Main Screen - Classifiers</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Classifiers.Client Main Screen - Classifiers</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:53:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='114' id='115'>Validate client main screen Debts Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Debts Feature.Validate client main screen Debts Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:54:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='127'>Validate create Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate create Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:55:33 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='137'>Validate Edit Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate Edit Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:56:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='147'>Validate Delete Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate Delete Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:57:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='157'>Validate change log Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate change log Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:58:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='170'>Validate Details Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate Details Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:59:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='184'>Validate Contract main Screen Memos</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate Contract main Screen Memos</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:00:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='195'>Validate create Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate create Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:01:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='205'>Validate Edit Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate Edit Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:02:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='215'>Validate Delete Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate Delete Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:03:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='225'>Validate create,Edit,Delete Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate create,Edit,Delete Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:04:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='238'>Validate create,Edit,Delete Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate create,Edit,Delete Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:05:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='251' id='252'>Free Search Account Validation</a>
+<div class="">
+<span class="badge badge-default">Free Search.Free Search Account Validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:05:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='258' id='259'>Search Client By Client Number from different customer</a>
+<div class="">
+<span class="badge badge-default">Search by Client.Search Client By Client Number from different customer</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:06:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='267' id='268'>Search by Contract By Bank Account Number</a>
+<div class="">
+<span class="badge badge-default">Search Contract Features.Search by Contract By Bank Account Number</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@R-PI.002.05.01</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PI.002.05.01</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:05:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='258' id='259'>Search Client By Client Number from different customer</a>
+<div class="">
+<span class="badge badge-default">Search by Client.Search Client By Client Number from different customer</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>19</span>
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">@AartiPatel</p>
+<p class="duration text-sm">22 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@AartiPatel</h4>
+<span status="pass" class='badge log pass-bg'>19 passed</span>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:48:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Validate client main screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Feature.Validate client main screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:48:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='40'>Validate client main screen GDPR Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Feature.Validate client main screen GDPR Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:49:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='57'>Validate client main screen Address Screen</a>
+<div class="">
+<span class="badge badge-default">Validation of Addresses.Validate client main screen Address Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:50:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='69'>Validate client main Screen Change Log</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Change Log Feature.Validate client main Screen Change Log</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:50:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='80'>Validate client main Screen Change Log</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Change Log Feature.Validate client main Screen Change Log</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:51:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='91'>Validate client main Screen Change Log Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Change Log Feature.Validate client main Screen Change Log Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:52:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='102' id='103'>Client Main Screen - Classifiers</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Classifiers.Client Main Screen - Classifiers</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:53:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='114' id='115'>Validate client main screen Debts Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Debts Feature.Validate client main screen Debts Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:54:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='127'>Validate create Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate create Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:55:33 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='137'>Validate Edit Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate Edit Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:56:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='147'>Validate Delete Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate Delete Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:57:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='157'>Validate change log Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate change log Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:58:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='126' id='170'>Validate Details Memos from Client Main Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Memos Feature.Validate Details Memos from Client Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:59:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='184'>Validate Contract main Screen Memos</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate Contract main Screen Memos</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:00:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='195'>Validate create Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate create Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:01:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='205'>Validate Edit Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate Edit Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:02:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='215'>Validate Delete Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate Delete Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:03:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='225'>Validate create,Edit,Delete Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate create,Edit,Delete Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:04:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='238'>Validate create,Edit,Delete Memos from Contract Main Screen</a>
+<div class="">
+<span class="badge badge-default">Contract Main Screen Feature.Validate create,Edit,Delete Memos from Contract Main Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:05:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='251' id='252'>Free Search Account Validation</a>
+<div class="">
+<span class="badge badge-default">Free Search.Free Search Account Validation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:05:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='258' id='259'>Search Client By Client Number from different customer</a>
+<div class="">
+<span class="badge badge-default">Search by Client.Search Client By Client Number from different customer</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:06:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='267' id='268'>Search by Contract By Bank Account Number</a>
+<div class="">
+<span class="badge badge-default">Search Contract Features.Search by Contract By Bank Account Number</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PNEL.005.02.01</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PNEL.005.02.01</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:48:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='40'>Validate client main screen GDPR Screen</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Feature.Validate client main screen GDPR Screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@R-PNEL.005.05.01</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@R-PNEL.005.05.01</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:49:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='57'>Validate client main screen Address Screen</a>
+<div class="">
+<span class="badge badge-default">Validation of Addresses.Validate client main screen Address Screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:52:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='68' id='100'>And validate "View Data" tab title</a>
+<div class="">
+<span class="badge badge-default">Client Main Screen Change Log Feature.Validate client main Screen Change Log Screen.And validate "View Data" tab title</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.TimeoutException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:06:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='267' id='270'>When user login workbench application for role "Risk - Pay Later Instalments"</a>
+<div class="">
+<span class="badge badge-default">Search Contract Features.Search by Contract By Bank Account Number.When user login workbench application for role "Risk - Pay Later Instalments"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:08:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='267' id='276'>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Search Contract Features.Search by Contract By Bank Account Number.com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">org.openqa.selenium.ElementClickInterceptedException</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.ElementClickInterceptedException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:06:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='258' id='264'>Then user search client by client number from different customer</a>
+<div class="">
+<span class="badge badge-default">Search by Client.Search Client By Client Number from different customer.Then user search client by client number from different customer</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:06:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='258' id='266'>com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Search by Client.Search Client By Client Number from different customer.com.mastercard.gpse.processing.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

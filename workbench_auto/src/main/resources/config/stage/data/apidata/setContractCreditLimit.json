@@ -1,0 +1,6 @@
+{
+  "amount": 1000,
+  "currency": "978",
+  "effectiveDate": "{{todayDate}}",
+  "operator": "="
+}

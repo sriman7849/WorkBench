@@ -1,0 +1,10 @@
+{
+  "customDataList": [
+    {
+      "removeTag" : "N",
+      "tagContainer" : "AddInfo01",
+      "tagName" : "{{tagName}}",
+      "tagValue" : "FLOWERPOWER"
+    }
+  ]
+}

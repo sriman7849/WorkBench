@@ -1,0 +1,8 @@
+{
+  "embossedData": {
+    "embossedCompanyName": "TURB",
+    "embossedFirstName": "{{firstname}}",
+    "embossedLastName": "{{lastname}}",
+    "embossedTitle": "MRS"
+  }
+}

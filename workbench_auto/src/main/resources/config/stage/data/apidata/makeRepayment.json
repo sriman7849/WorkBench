@@ -1,0 +1,7 @@
+{
+  "amount": 100,
+  "currency": "EUR",
+  "description": "REPAYMENT",
+  "rrn": "{{RRN}}",
+  "transactionDate": "{{todayDate}}T12:00:00"
+}
